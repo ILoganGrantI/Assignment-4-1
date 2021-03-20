@@ -17,7 +17,7 @@ h1 {
 
 .left-column {
   float: left;
-  height: 650px;
+  height: 450px;
   width: 20%;
   color: #e03a3e;
   background: #fdb827;
@@ -26,11 +26,11 @@ h1 {
   box-shadow: 10px 10px;
 }
 
-.center-column {
+#paragraph {
   margin: auto;
-  height: 650px;
+  height: 450px;
   width: 50%;
-  color: #e03a3e;
+  color: black;
   background: #fdb827;
   padding: 10px;
   border: 5px solid #e03a3e;
@@ -39,7 +39,7 @@ h1 {
 
 .right-column {
   float: right;
-  height: 650px;
+  height: 450px;
   width: 20%;
   color: #e03a3e;
   background: #fdb827;
@@ -126,4 +126,9 @@ div.transbox p {
   width: 150px;
   height: 100px;
   margin: auto;
+}
+
+button {
+	width: 300px;
+	text-align: left;
 }
